@@ -1,0 +1,16 @@
+PODS:
+  - UIButtonColor (0.1.0)
+
+DEPENDENCIES:
+  - UIButtonColor (from `../`)
+
+EXTERNAL SOURCES:
+  UIButtonColor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UIButtonColor: a2caed12ba885698a600479a993b4a1bb5a7758a
+
+PODFILE CHECKSUM: 64cb0003acd936c4c22fe15d07a8f0f0979bf1f8
+
+COCOAPODS: 1.12.1

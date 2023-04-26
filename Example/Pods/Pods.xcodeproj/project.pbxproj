@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13E5BED8AE5AB10203D2C52662AE4E54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		241C18DA95C68CAFD96E2A812A4D892A /* Pods-UIButtonColor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C88DF6C896F50BCBBCBF96AFF3C975 /* Pods-UIButtonColor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60F56A24599DB9549959F5B47292465A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		748FB7D442244DAE8D4CD4418D6B2640 /* UIButtonColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC1FED637A61601B9B2ECA1CD2D36AC /* UIButtonColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0CB357D2060E6A548A295264DDE4CD3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C205FB434E882BBEF01E2D3577D52373 /* ReplaceMe.swift */; };
+		A25A6484AB77AC16CE72EACE07F8AB03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A374EB70AD3651040A4453D3FC5CCF4C /* UIButtonColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E39136A2522269CB7A38B4B1833C4A30 /* UIButtonColor-dummy.m */; };
+		AAB71E4DF98F52280C4838430B13E014 /* Pods-UIButtonColor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C0EF87FBB8EE3508B50418E883094 /* Pods-UIButtonColor_Example-dummy.m */; };
+		D08074F25B2B45F741F787C36B1DAF0F /* Pods-UIButtonColor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84793BA6C4433F1BB7D55D2A5818AE81 /* Pods-UIButtonColor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E212BF8857DE751E1823B333E31F3B5A /* Pods-UIButtonColor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEE7511EDE0524CB74CB91A6FAD153D /* Pods-UIButtonColor_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		450A186287D52E23678E0A854CFBDE96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08BD6A9FBAE272019CF5520CF05E5654;
+			remoteInfo = "Pods-UIButtonColor_Example";
+		};
+		E11A7BB32F70CBF6CBE56DB450F0DE26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F360E8C2BB2A93CCAE4B428B801361;
+			remoteInfo = UIButtonColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038C0EF87FBB8EE3508B50418E883094 /* Pods-UIButtonColor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIButtonColor_Example-dummy.m"; sourceTree = "<group>"; };
+		046224433377A33BC30BA018BF0A0306 /* UIButtonColor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIButtonColor.debug.xcconfig; sourceTree = "<group>"; };
+		0A0935EC7330BB7B6A408283FA0E901A /* Pods_UIButtonColor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIButtonColor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		111173FFDAA35031612C02F8E4B28CEE /* Pods-UIButtonColor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonColor_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1270868BCED3E5CD59BB336644449816 /* Pods-UIButtonColor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIButtonColor_Tests.modulemap"; sourceTree = "<group>"; };
+		1B1EFF1B309705DD09124FB4A2BBD577 /* Pods_UIButtonColor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIButtonColor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0764A3EB0F32698DFB2AE978F221A5 /* Pods-UIButtonColor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButtonColor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		24EEE6970AD8C0F6D5744C594DABDACE /* UIButtonColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIButtonColor.modulemap; sourceTree = "<group>"; };
+		2C3A3C37C40E0B2CB8129308E7A90AB3 /* Pods-UIButtonColor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButtonColor_Example-Info.plist"; sourceTree = "<group>"; };
+		39C88DF6C896F50BCBBCBF96AFF3C975 /* Pods-UIButtonColor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIButtonColor_Example-umbrella.h"; sourceTree = "<group>"; };
+		520437137B7341BC34535470FAC4CF8E /* Pods-UIButtonColor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonColor_Example.release.xcconfig"; sourceTree = "<group>"; };
+		58086462B1E81EB2256E9BBC6A7A400C /* UIButtonColor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UIButtonColor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		58C0E17AA447BA0E8EAAB504A9D10FFB /* UIButtonColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIButtonColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDBD4C99A2416606F31A9B2C14A8D1D /* Pods-UIButtonColor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButtonColor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		738E44FE382294992B0343DE5211D0AA /* Pods-UIButtonColor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonColor_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7AE63820B60135CDF5318CE7B966437B /* Pods-UIButtonColor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIButtonColor_Example-frameworks.sh"; sourceTree = "<group>"; };
+		84793BA6C4433F1BB7D55D2A5818AE81 /* Pods-UIButtonColor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIButtonColor_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8C8EFB12DE9E872DABF7F280565636D4 /* UIButtonColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButtonColor-prefix.pch"; sourceTree = "<group>"; };
+		8E7EF921A43E0CCC728638D5AE050369 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8EC1FED637A61601B9B2ECA1CD2D36AC /* UIButtonColor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButtonColor-umbrella.h"; sourceTree = "<group>"; };
+		91E68F180511490D1597892AD3500F24 /* Pods-UIButtonColor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIButtonColor_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A62EEE56E9C7A27F27FD0CA2FE2613B9 /* Pods-UIButtonColor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIButtonColor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6C721E997D99194D867AD9F1009B2C5 /* UIButtonColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIButtonColor.release.xcconfig; sourceTree = "<group>"; };
+		B67CC9D888F2FB18D66239E95D53128B /* UIButtonColor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIButtonColor-Info.plist"; sourceTree = "<group>"; };
+		B96D46F8B78219C4E70DD0340DEB3A12 /* Pods-UIButtonColor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIButtonColor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C205FB434E882BBEF01E2D3577D52373 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UIButtonColor/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		CDEE7511EDE0524CB74CB91A6FAD153D /* Pods-UIButtonColor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIButtonColor_Tests-dummy.m"; sourceTree = "<group>"; };
+		CED1407DE416EE33F23315E25FB221F7 /* Pods-UIButtonColor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIButtonColor_Example.modulemap"; sourceTree = "<group>"; };
+		E39136A2522269CB7A38B4B1833C4A30 /* UIButtonColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButtonColor-dummy.m"; sourceTree = "<group>"; };
+		E42A1987C3370B0F286FF822081ACBC7 /* Pods-UIButtonColor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIButtonColor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F99A12EBC7CF8539A199A1C157C13900 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28375CAFB26A97D08C810FE789F31FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25A6484AB77AC16CE72EACE07F8AB03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D21D7005F123276EF5E8C488E55FEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F56A24599DB9549959F5B47292465A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C981F6B5C396856E3CDC40FADEEBD99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E5BED8AE5AB10203D2C52662AE4E54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27B8754A59C3DC6CC0F2EE2FFCE165A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A0935EC7330BB7B6A408283FA0E901A /* Pods_UIButtonColor_Example.framework */,
+				1B1EFF1B309705DD09124FB4A2BBD577 /* Pods_UIButtonColor_Tests.framework */,
+				58C0E17AA447BA0E8EAAB504A9D10FFB /* UIButtonColor.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30A9F1BB8A4F32A15EB0514541D182AE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				407821EA333B1AB008EFD538A2D66E61 /* Pods-UIButtonColor_Example */,
+				A1B34D051FFA8426686D73ABD22541BE /* Pods-UIButtonColor_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		407821EA333B1AB008EFD538A2D66E61 /* Pods-UIButtonColor_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CED1407DE416EE33F23315E25FB221F7 /* Pods-UIButtonColor_Example.modulemap */,
+				A62EEE56E9C7A27F27FD0CA2FE2613B9 /* Pods-UIButtonColor_Example-acknowledgements.markdown */,
+				6CDBD4C99A2416606F31A9B2C14A8D1D /* Pods-UIButtonColor_Example-acknowledgements.plist */,
+				038C0EF87FBB8EE3508B50418E883094 /* Pods-UIButtonColor_Example-dummy.m */,
+				7AE63820B60135CDF5318CE7B966437B /* Pods-UIButtonColor_Example-frameworks.sh */,
+				2C3A3C37C40E0B2CB8129308E7A90AB3 /* Pods-UIButtonColor_Example-Info.plist */,
+				39C88DF6C896F50BCBBCBF96AFF3C975 /* Pods-UIButtonColor_Example-umbrella.h */,
+				111173FFDAA35031612C02F8E4B28CEE /* Pods-UIButtonColor_Example.debug.xcconfig */,
+				520437137B7341BC34535470FAC4CF8E /* Pods-UIButtonColor_Example.release.xcconfig */,
+			);
+			name = "Pods-UIButtonColor_Example";
+			path = "Target Support Files/Pods-UIButtonColor_Example";
+			sourceTree = "<group>";
+		};
+		510DE6A297124292B536345CB5C50825 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8E7EF921A43E0CCC728638D5AE050369 /* LICENSE */,
+				F99A12EBC7CF8539A199A1C157C13900 /* README.md */,
+				58086462B1E81EB2256E9BBC6A7A400C /* UIButtonColor.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6A91D0828DDF28DF187E001FF048F80D /* UIButtonColor */ = {
+			isa = PBXGroup;
+			children = (
+				C205FB434E882BBEF01E2D3577D52373 /* ReplaceMe.swift */,
+				510DE6A297124292B536345CB5C50825 /* Pod */,
+				716BF8BF3F8065CFAAC7F5EB5A2F8B14 /* Support Files */,
+			);
+			name = UIButtonColor;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		716BF8BF3F8065CFAAC7F5EB5A2F8B14 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24EEE6970AD8C0F6D5744C594DABDACE /* UIButtonColor.modulemap */,
+				E39136A2522269CB7A38B4B1833C4A30 /* UIButtonColor-dummy.m */,
+				B67CC9D888F2FB18D66239E95D53128B /* UIButtonColor-Info.plist */,
+				8C8EFB12DE9E872DABF7F280565636D4 /* UIButtonColor-prefix.pch */,
+				8EC1FED637A61601B9B2ECA1CD2D36AC /* UIButtonColor-umbrella.h */,
+				046224433377A33BC30BA018BF0A0306 /* UIButtonColor.debug.xcconfig */,
+				A6C721E997D99194D867AD9F1009B2C5 /* UIButtonColor.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UIButtonColor";
+			sourceTree = "<group>";
+		};
+		A1B34D051FFA8426686D73ABD22541BE /* Pods-UIButtonColor_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1270868BCED3E5CD59BB336644449816 /* Pods-UIButtonColor_Tests.modulemap */,
+				B96D46F8B78219C4E70DD0340DEB3A12 /* Pods-UIButtonColor_Tests-acknowledgements.markdown */,
+				1E0764A3EB0F32698DFB2AE978F221A5 /* Pods-UIButtonColor_Tests-acknowledgements.plist */,
+				CDEE7511EDE0524CB74CB91A6FAD153D /* Pods-UIButtonColor_Tests-dummy.m */,
+				91E68F180511490D1597892AD3500F24 /* Pods-UIButtonColor_Tests-Info.plist */,
+				84793BA6C4433F1BB7D55D2A5818AE81 /* Pods-UIButtonColor_Tests-umbrella.h */,
+				E42A1987C3370B0F286FF822081ACBC7 /* Pods-UIButtonColor_Tests.debug.xcconfig */,
+				738E44FE382294992B0343DE5211D0AA /* Pods-UIButtonColor_Tests.release.xcconfig */,
+			);
+			name = "Pods-UIButtonColor_Tests";
+			path = "Target Support Files/Pods-UIButtonColor_Tests";
+			sourceTree = "<group>";
+		};
+		A6BB71290ED7BA8E65A189FD8DC3B559 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A91D0828DDF28DF187E001FF048F80D /* UIButtonColor */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A6BB71290ED7BA8E65A189FD8DC3B559 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				27B8754A59C3DC6CC0F2EE2FFCE165A2 /* Products */,
+				30A9F1BB8A4F32A15EB0514541D182AE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		449A835AA88C17D3AB4AEB3B51593D1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08074F25B2B45F741F787C36B1DAF0F /* Pods-UIButtonColor_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C7DA6AE5E6612B15F434ECA6000E2D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241C18DA95C68CAFD96E2A812A4D892A /* Pods-UIButtonColor_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2414B33521A2BD7AE915D58B9DB6644 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748FB7D442244DAE8D4CD4418D6B2640 /* UIButtonColor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06F360E8C2BB2A93CCAE4B428B801361 /* UIButtonColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48BCBF36B3BCC699420F36FA5A62FB8 /* Build configuration list for PBXNativeTarget "UIButtonColor" */;
+			buildPhases = (
+				B2414B33521A2BD7AE915D58B9DB6644 /* Headers */,
+				AA22D8C563824BE852DC0259FA3F1810 /* Sources */,
+				30D21D7005F123276EF5E8C488E55FEE /* Frameworks */,
+				5847D7EB48AB7EA62A53A7483C95CEF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIButtonColor;
+			productName = UIButtonColor;
+			productReference = 58C0E17AA447BA0E8EAAB504A9D10FFB /* UIButtonColor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		08BD6A9FBAE272019CF5520CF05E5654 /* Pods-UIButtonColor_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BD75B2DE922C1630A52080C0F7B6BA /* Build configuration list for PBXNativeTarget "Pods-UIButtonColor_Example" */;
+			buildPhases = (
+				9C7DA6AE5E6612B15F434ECA6000E2D4 /* Headers */,
+				56E8401D6A3AC594D82129FD26A324EA /* Sources */,
+				C981F6B5C396856E3CDC40FADEEBD99A /* Frameworks */,
+				6720E23D2EAEC015119E6F62CB7621A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21D3141DBD8D91C92CA055D42112FD26 /* PBXTargetDependency */,
+			);
+			name = "Pods-UIButtonColor_Example";
+			productName = Pods_UIButtonColor_Example;
+			productReference = 0A0935EC7330BB7B6A408283FA0E901A /* Pods_UIButtonColor_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0ADC13C2E81E4EA9AAF597051BB72806 /* Pods-UIButtonColor_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6E157F45DC8A7A3E73453E6426F6A9 /* Build configuration list for PBXNativeTarget "Pods-UIButtonColor_Tests" */;
+			buildPhases = (
+				449A835AA88C17D3AB4AEB3B51593D1E /* Headers */,
+				623CCC7BD1DD54D432B34FBE264A5158 /* Sources */,
+				28375CAFB26A97D08C810FE789F31FC1 /* Frameworks */,
+				A214CB8C11ED08E9F04C429A96FFAB7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7177CB0F49ABC49BACCF35F1E0401D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-UIButtonColor_Tests";
+			productName = Pods_UIButtonColor_Tests;
+			productReference = 1B1EFF1B309705DD09124FB4A2BBD577 /* Pods_UIButtonColor_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 27B8754A59C3DC6CC0F2EE2FFCE165A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08BD6A9FBAE272019CF5520CF05E5654 /* Pods-UIButtonColor_Example */,
+				0ADC13C2E81E4EA9AAF597051BB72806 /* Pods-UIButtonColor_Tests */,
+				06F360E8C2BB2A93CCAE4B428B801361 /* UIButtonColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5847D7EB48AB7EA62A53A7483C95CEF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6720E23D2EAEC015119E6F62CB7621A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A214CB8C11ED08E9F04C429A96FFAB7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56E8401D6A3AC594D82129FD26A324EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB71E4DF98F52280C4838430B13E014 /* Pods-UIButtonColor_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623CCC7BD1DD54D432B34FBE264A5158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E212BF8857DE751E1823B333E31F3B5A /* Pods-UIButtonColor_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA22D8C563824BE852DC0259FA3F1810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CB357D2060E6A548A295264DDE4CD3 /* ReplaceMe.swift in Sources */,
+				A374EB70AD3651040A4453D3FC5CCF4C /* UIButtonColor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21D3141DBD8D91C92CA055D42112FD26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIButtonColor;
+			target = 06F360E8C2BB2A93CCAE4B428B801361 /* UIButtonColor */;
+			targetProxy = E11A7BB32F70CBF6CBE56DB450F0DE26 /* PBXContainerItemProxy */;
+		};
+		B7177CB0F49ABC49BACCF35F1E0401D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UIButtonColor_Example";
+			target = 08BD6A9FBAE272019CF5520CF05E5654 /* Pods-UIButtonColor_Example */;
+			targetProxy = 450A186287D52E23678E0A854CFBDE96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D6D55596AF3FB139077191F6AD54AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C721E997D99194D867AD9F1009B2C5 /* UIButtonColor.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIButtonColor/UIButtonColor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIButtonColor/UIButtonColor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIButtonColor/UIButtonColor.modulemap";
+				PRODUCT_MODULE_NAME = UIButtonColor;
+				PRODUCT_NAME = UIButtonColor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		458118A619D5C33C4DB3F49775C76FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 046224433377A33BC30BA018BF0A0306 /* UIButtonColor.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIButtonColor/UIButtonColor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIButtonColor/UIButtonColor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIButtonColor/UIButtonColor.modulemap";
+				PRODUCT_MODULE_NAME = UIButtonColor;
+				PRODUCT_NAME = UIButtonColor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D5E6A49130C6B66DB068C8CC8B4E024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738E44FE382294992B0343DE5211D0AA /* Pods-UIButtonColor_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIButtonColor_Tests/Pods-UIButtonColor_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIButtonColor_Tests/Pods-UIButtonColor_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BCD27CE9C9E025A8A4B553B00992DB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42A1987C3370B0F286FF822081ACBC7 /* Pods-UIButtonColor_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIButtonColor_Tests/Pods-UIButtonColor_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIButtonColor_Tests/Pods-UIButtonColor_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D6D731430598D1DCEC47DE4540D2F777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111173FFDAA35031612C02F8E4B28CEE /* Pods-UIButtonColor_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIButtonColor_Example/Pods-UIButtonColor_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIButtonColor_Example/Pods-UIButtonColor_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E981914C351C936A873A5279244F05B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 520437137B7341BC34535470FAC4CF8E /* Pods-UIButtonColor_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIButtonColor_Example/Pods-UIButtonColor_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIButtonColor_Example/Pods-UIButtonColor_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48BCBF36B3BCC699420F36FA5A62FB8 /* Build configuration list for PBXNativeTarget "UIButtonColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				458118A619D5C33C4DB3F49775C76FAC /* Debug */,
+				2D6D55596AF3FB139077191F6AD54AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB6E157F45DC8A7A3E73453E6426F6A9 /* Build configuration list for PBXNativeTarget "Pods-UIButtonColor_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD27CE9C9E025A8A4B553B00992DB90 /* Debug */,
+				4D5E6A49130C6B66DB068C8CC8B4E024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BD75B2DE922C1630A52080C0F7B6BA /* Build configuration list for PBXNativeTarget "Pods-UIButtonColor_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D731430598D1DCEC47DE4540D2F777 /* Debug */,
+				E981914C351C936A873A5279244F05B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

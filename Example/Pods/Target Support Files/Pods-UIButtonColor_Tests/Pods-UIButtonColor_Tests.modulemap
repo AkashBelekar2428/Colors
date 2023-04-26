@@ -1,0 +1,6 @@
+framework module Pods_UIButtonColor_Tests {
+  umbrella header "Pods-UIButtonColor_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
